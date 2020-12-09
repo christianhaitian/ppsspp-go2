@@ -1,4 +1,3 @@
-#if 0
 /*
 *
 * Copyright (C) 2016 OtherCrashOverride@users.noreply.github.com.
@@ -45,7 +44,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 
-#include "RgaApi.h"
+#include <rga/RgaApi.h>
 #include <drm/drm_fourcc.h>
 
 
@@ -1025,4 +1024,3 @@ void kms_window_swap_buffers2(KmsWindow* window)
 
 #endif
 }
-#endif
