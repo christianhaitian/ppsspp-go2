@@ -1,4 +1,17 @@
-﻿PPSSPP - a fast and portable PSP emulator
+**Compile instructions for OGA and clones \
+**=======================================
+
+cd ~ \
+git clone https://github.com/christianhaitian/ppsspp-go2.git --recursive \
+cd ppsspp/ffmpeg \
+./linux_arm64.sh \
+cd .. \
+mkdir build && cd build \
+cmake -DUSING_EGL=OFF -DUSING_GLES2=ON -DUSE_FFMPEG=YES -DUSE_SYSTEM_FFMPEG=NO ../. \
+make -j3 \
+strip PPSSPPSDL
+
+PPSSPP - a fast and portable PSP emulator
 =========================================
 
 Created by Henrik Rydgård
