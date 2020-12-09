@@ -1,5 +1,5 @@
-**Compile instructions for OGA and clones \
-**=======================================
+Compile instructions for OGA and clones \
+=======================================
 
 cd ~ \
 git clone https://github.com/christianhaitian/ppsspp-go2.git --recursive \
