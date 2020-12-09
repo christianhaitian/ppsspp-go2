@@ -1,4 +1,4 @@
-Compile instructions for OGA and clones \
+Compile instructions for OGA and clones 
 =======================================
 
 cd ~ \
