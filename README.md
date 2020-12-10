@@ -3,7 +3,7 @@ Compile instructions for OGA and clones (64 bit Ubuntu environment)
 sudo apt-get install libx11-dev libsm-dev libxext-dev git cmake mercurial libudev-dev libdrm-dev zlib1g-dev pkg-config libasound2-dev libfreetype6-dev libx11-xcb1 libxcb-dri2-0 \
 cd ~ \
 git clone https://github.com/christianhaitian/ppsspp-go2.git --recursive \
-cd ppsspp/ffmpeg \
+cd ppsspp-go2/ffmpeg \
 ./linux_arm64.sh \
 cd .. \
 mkdir build && cd build \
